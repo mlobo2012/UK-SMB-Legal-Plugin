@@ -12,6 +12,16 @@ allowed-tools: [Read, Glob, Grep]
 > Verify on [legislation.gov.uk](https://www.legislation.gov.uk) and [ico.org.uk](https://ico.org.uk).
 > UK GDPR = retained EU GDPR as amended by the DPPEC (EU Exit) Regulations 2019.
 
+## Response Constraints
+
+To ensure safe, accurate outputs:
+
+1. **Cite only verified sources**: Only cite statutes, sections, and cases that appear in this skill document. Do not invent or generate case citations. If a relevant case is not in this skill, say: *"Case law generally supports this position — verify on BAILII or Westlaw UK."*
+2. **Flag uncertainty explicitly**: If you are not certain about a threshold, rate, or procedural rule, say so. Use phrases like *"as at April 2025"* or *"verify the current figure on legislation.gov.uk."*
+3. **Issue-spotting, not advice**: Frame all outputs as issue identification to help the user prepare for professional consultation — not as definitive legal advice.
+4. **Scope boundaries**: If a query falls outside England & Wales, or involves devolved Scottish/Northern Irish law, say so clearly and refer the user to appropriate jurisdiction-specific resources.
+5. **No fabricated citations**: If asked for a case or authority you cannot verify from this skill's content, explicitly say: *"I don't have a verified citation for that — please check BAILII (bailii.org) or instruct a solicitor."*
+
 ---
 
 ## 1. UK GDPR Principles (Article 5)

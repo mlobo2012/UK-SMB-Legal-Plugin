@@ -1,6 +1,6 @@
 # UK SMB Legal Plugin for Claude Code
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0%20%2B%20Commons%20Clause-blue.svg)](LICENSE)
 [![Claude Code Compatible](https://img.shields.io/badge/Claude%20Code-Compatible-blueviolet)](https://claude.ai)
 
 A comprehensive AI-powered UK legal assistant for small and medium-sized businesses, built as a plugin for [Claude Code](https://claude.ai). Covers 12 practice areas across England & Wales with section-level statute citations, interactive calculators, and SRA-compliant disclaimers. Also includes a [Cowork](https://claude.com/product/cowork) variant for Anthropic's agentic desktop application.
@@ -153,10 +153,14 @@ The plugin connects to UK legal data sources through MCP (Model Context Protocol
 
 Contributions are welcome. Please ensure all legal content is accurate and up-to-date with current English law and UK-wide legislation where applicable.
 
+## Getting the most out of this plugin?
+
+If you need help with setup, want it customised to your firm's workflows, or just want to talk through what's possible — [reach out to AI Heroes](https://www.ai-heroes.co/contact). We're building these tools to be as valuable as possible and your input drives that.
+
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](legal-uk/LICENSE) file for details.
+[Apache 2.0 + Commons Clause](LICENSE) — free for private and internal business use. Commercial resale is not permitted.
 
 ---
 
-**Built by [AI Heroes](https://www.ai-heroes.co)** | MIT License | Claude Code Compatible
+**Built by [AI Heroes](https://www.ai-heroes.co)** | Apache 2.0 + Commons Clause | Claude Code Compatible
