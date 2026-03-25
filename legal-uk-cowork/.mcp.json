@@ -1,0 +1,54 @@
+{
+  "mcpServers": {
+    "companies-house": {
+      "type": "http",
+      "url": "",
+      "description": "Companies House API — company search, officer details, PSC register, filing history, charges. Free API key from developer.company-information.service.gov.uk"
+    },
+    "hmrc-mtd": {
+      "type": "http",
+      "url": "",
+      "description": "HMRC Making Tax Digital API — VAT obligations, returns, ITSA quarterly updates. OAuth 2.0 from developer.service.hmrc.gov.uk"
+    },
+    "land-registry": {
+      "type": "http",
+      "url": "",
+      "description": "HM Land Registry — title searches, property data, ownership records. Business Gateway or portal access"
+    },
+    "legislation-gov-uk": {
+      "type": "http",
+      "url": "",
+      "description": "legislation.gov.uk API — full text of UK Acts, Statutory Instruments, and secondary legislation"
+    },
+    "fca-register": {
+      "type": "http",
+      "url": "",
+      "description": "FCA Financial Services Register — check firm/individual authorisation, permissions, and regulatory status"
+    },
+    "ico-register": {
+      "type": "http",
+      "url": "",
+      "description": "ICO Data Protection Register — verify data protection fee registration and search the register"
+    },
+    "document-management": {
+      "type": "http",
+      "url": "",
+      "description": "Document management system — iManage, NetDocuments, SharePoint, or Egnyte for storing and retrieving legal documents"
+    },
+    "practice-management": {
+      "type": "http",
+      "url": "",
+      "description": "Legal practice management — Clio, LEAP, Smokeball, or PracticeEvolve for matter management, time recording, and billing"
+    },
+    "office-suite": {
+      "type": "http",
+      "url": "",
+      "description": "Microsoft 365 or Google Workspace — Word/Docs for document drafting, Outlook/Gmail for correspondence, Teams/Chat for collaboration"
+    },
+    "slack": {
+      "type": "http",
+      "url": "",
+      "description": "Slack — team communication, matter updates, and approval workflows"
+    }
+  }
+}
