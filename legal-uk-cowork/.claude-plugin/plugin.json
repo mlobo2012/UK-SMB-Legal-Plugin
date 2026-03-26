@@ -1,13 +1,13 @@
 {
   "name": "legal-uk-cowork",
   "description": "Comprehensive UK legal assistant for England & Wales — covering contract law, employment, data protection, company law, IP, property, financial services, competition, consumer law, litigation, tax, and regulatory compliance. Built for SMBs, founders, in-house teams, and legal professionals with section-level statute citations, interactive calculators, and SRA-compliant disclaimers.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "AI Heroes"
   },
   "homepage": "https://github.com/mlobo2012/UK-SMB-Legal-Plugin",
   "repository": "https://github.com/mlobo2012/UK-SMB-Legal-Plugin",
-  "license": "MIT",
+  "license": "Apache-2.0 WITH Commons-Clause",
   "keywords": [
     "uk-law",
     "england-wales",

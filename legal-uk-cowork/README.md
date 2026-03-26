@@ -1,6 +1,6 @@
 # UK SMB Legal Plugin
 
-A comprehensive UK legal assistant plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Covers 12 practice areas across England & Wales with section-level statute citations, interactive calculators, and SRA-compliant disclaimers.
+A comprehensive UK legal assistant plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Covers 15 practice areas and workflow skills across England & Wales with section-level statute citations, interactive calculators, and SRA-compliant disclaimers.
 
 Built for **SMBs, founders, in-house teams, and legal professionals** operating in England & Wales.
 
@@ -20,7 +20,10 @@ claude plugins add UK-SMB-Legal-Plugin/legal-uk
 
 | Command | Description |
 |---------|-------------|
-| `/contract-law` | Contract formation, terms, breach, remedies, limitation periods (LA 1980), unfair terms (UCTA 1977, CRA 2015 Part 2), misrepresentation (MA 1967), and force majeure |
+| `/contract-review` | **NEW v1.1.0** — Playbook-based clause-by-clause contract review + full contract law reference (UCTA 1977, CRA 2015, MA 1967, LA 1980) |
+| `/nda-triage` | **NEW v1.1.0** — GREEN/YELLOW/RED NDA screening with UK-specific clause analysis |
+| `/legal-risk-assessment` | **NEW v1.1.0** — 5×5 severity × likelihood risk matrix with UK regulatory enforcement landscape |
+| `/compliance-workflow` | **NEW v1.1.0** — UK GDPR/DPA 2018 compliance workflow with ICO-specific steps, DPIA, DSAR, breach notification |
 | `/employment-law` | Unfair dismissal, redundancy, discrimination (EA 2010), working time, NLW/NMW rates, TUPE, flexible working, IR35, and Employment Tribunal procedure with ET time limit calculator |
 | `/data-protection` | UK GDPR, DPA 2018, ICO enforcement, lawful basis selector, breach notification (72hr), DPIAs, international transfers (IDTA), PECR cookie consent, and Children's Code |
 | `/company-law` | Directors' duties (ss.171–177 CA 2006), company formation, small/micro-entity regimes, ECCTA 2023, insolvency procedures, and Companies House filing obligations |
@@ -35,11 +38,14 @@ claude plugins add UK-SMB-Legal-Plugin/legal-uk
 
 ## Skills
 
-All 12 skills are user-invocable and provide deep, practice-area-specific guidance with full statute citations.
+All 15 skills are user-invocable and provide deep, practice-area-specific guidance with full statute citations.
 
 | Skill | Key Legislation | Interactive Features |
 |-------|----------------|---------------------|
-| `contract-law` | UCTA 1977, CRA 2015, MA 1967, LA 1980, LP(MP)A 1989 | Limitation period calculator |
+| `contract-review` | UCTA 1977, CRA 2015, MA 1967, LA 1980, LP(MP)A 1989 | Playbook-based review + contract law reference |
+| `nda-triage` | Confidentiality, UCTA 1977, Competition Act 1998 | GREEN/YELLOW/RED clause screening |
+| `legal-risk-assessment` | CA 2006, IA 1986, ECCTA 2023, various | 5×5 risk matrix, regulatory penalty reference |
+| `compliance-workflow` | UK GDPR, DPA 2018, PECR 2003, DPDIA 2024 | 15-step compliance assessment workflow |
 | `employment-law` | ERA 1996, EA 2010, WTR 1998, TUPE 2006, ITEPA 2003 | ET time limit calculator, TUPE checker, IR35 indicator |
 | `data-protection` | UK GDPR, DPA 2018, PECR 2003 | Lawful basis selector, breach assessment workflow |
 | `company-law` | CA 2006, ECCTA 2023, IA 1986 | Filing deadline tracker, size classification |
@@ -63,9 +69,9 @@ All 12 skills are user-invocable and provide deep, practice-area-specific guidan
 
 ### Commercial Contract Review
 
-1. Run `/contract-law terms` to check implied terms and classification
-2. Run `/contract-law unfair-terms` to assess exclusion clauses under UCTA 1977
-3. Run `/contract-law limitation` to calculate applicable limitation periods
+1. Run `/contract-review` with the contract text to get a clause-by-clause playbook-based review
+2. Run `/legal-risk-assessment` to assess overall risk profile of the contract
+3. Run `/nda-triage` if the contract includes confidentiality provisions or is an NDA
 4. Run `/intellectual-property licensing` to review any IP licensing provisions
 
 ### Property Transaction
@@ -84,9 +90,10 @@ All 12 skills are user-invocable and provide deep, practice-area-specific guidan
 
 ### Data Breach Response
 
-1. Run `/data-protection breach` to assess severity and ICO notification obligation (72hr)
-2. Run `/data-protection rights` to understand data subject notification requirements
-3. Run `/regulatory-bodies ico` to understand ICO enforcement powers and penalty framework
+1. Run `/compliance-workflow` to assess your overall data protection compliance posture
+2. Run `/data-protection breach` to assess severity and ICO notification obligation (72hr)
+3. Run `/data-protection rights` to understand data subject notification requirements
+4. Run `/regulatory-bodies ico` to understand ICO enforcement powers and penalty framework
 
 ### HMRC Tax Planning
 
@@ -183,4 +190,4 @@ Connect Clio, LEAP, Smokeball, or PracticeEvolve for matter management and time 
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+[Apache 2.0 + Commons Clause](LICENSE) — free for private and internal business use. Commercial resale is not permitted.

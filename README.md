@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0%20%2B%20Commons%20Clause-blue.svg)](LICENSE)
 [![Claude Code Compatible](https://img.shields.io/badge/Claude%20Code-Compatible-blueviolet)](https://claude.ai)
 
-A comprehensive AI-powered UK legal assistant for small and medium-sized businesses, built as a plugin for [Claude Code](https://claude.ai). Covers 12 practice areas across England & Wales with section-level statute citations, interactive calculators, and SRA-compliant disclaimers. Also includes a [Cowork](https://claude.com/product/cowork) variant for Anthropic's agentic desktop application.
+A comprehensive AI-powered UK legal assistant for small and medium-sized businesses, built as a plugin for [Claude Code](https://claude.ai). Covers 15 practice areas and workflow skills across England & Wales with section-level statute citations, interactive calculators, and SRA-compliant disclaimers. Also includes a [Cowork](https://claude.com/product/cowork) variant for Anthropic's agentic desktop application.
 
 > **Disclaimer:** This plugin provides legal information for England & Wales only. It does not constitute legal advice and is not a substitute for instruction of a qualified solicitor regulated by the Solicitors Regulation Authority (SRA). All outputs should be verified against current legislation on [legislation.gov.uk](https://www.legislation.gov.uk/). Rates and thresholds reflect the position as at April 2025.
 
@@ -15,22 +15,34 @@ This plugin was created by **[AI Heroes](https://www.ai-heroes.co)** — AI auto
 
 ---
 
-## 12 Practice Areas
+## 12 Practice Areas + 4 Workflow Skills
+
+### Reference Skills (v1.0.0+)
 
 | # | Practice Area | Jurisdiction | Key Legislation |
 |---|---------------|-------------|-----------------|
-| 1 | Contract Law | England & Wales | UCTA 1977, CRA 2015, MA 1967, LA 1980 |
-| 2 | Employment Law | England & Wales (some UK-wide) | ERA 1996, EA 2010, WTR 1998, TUPE 2006 |
-| 3 | Data Protection | UK-wide | UK GDPR, DPA 2018, PECR 2003 |
-| 4 | Company Law | England & Wales (CA 2006 UK-wide) | CA 2006, ECCTA 2023, IA 1986 |
-| 5 | Intellectual Property | UK-wide | CDPA 1988, TMA 1994, PA 1977 |
-| 6 | Property Law | England & Wales | LPA 1925, LRA 2002, LTA 1954, RRA 2025 |
-| 7 | Financial Services | UK-wide | FSMA 2000, FCA Handbook, PSR 2017 |
-| 8 | Competition Law | UK-wide | CA 1998, EA 2002, DMCC 2024 |
-| 9 | Consumer Law | England & Wales (some UK-wide) | CRA 2015, CCR 2013, CPRs 2008 |
-| 10 | Litigation & Civil Procedure | England & Wales | CPR 1998, PD 57AD |
-| 11 | Tax Law | UK-wide | CTA 2009/10, ITA 2007, VATA 1994, TCGA 1992 |
-| 12 | Regulatory Bodies | UK-wide | Various (ICO, FCA, CMA, SRA, HSE, TPR) |
+| 1 | Employment Law | England & Wales (some UK-wide) | ERA 1996, EA 2010, WTR 1998, TUPE 2006 |
+| 2 | Data Protection | UK-wide | UK GDPR, DPA 2018, PECR 2003 |
+| 3 | Company Law | England & Wales (CA 2006 UK-wide) | CA 2006, ECCTA 2023, IA 1986 |
+| 4 | Intellectual Property | UK-wide | CDPA 1988, TMA 1994, PA 1977 |
+| 5 | Property Law | England & Wales | LPA 1925, LRA 2002, LTA 1954, RRA 2025 |
+| 6 | Financial Services | UK-wide | FSMA 2000, FCA Handbook, PSR 2017 |
+| 7 | Competition Law | UK-wide | CA 1998, EA 2002, DMCC 2024 |
+| 8 | Consumer Law | England & Wales (some UK-wide) | CRA 2015, CCR 2013, CPRs 2008 |
+| 9 | Litigation & Civil Procedure | England & Wales | CPR 1998, PD 57AD |
+| 10 | Tax Law | UK-wide | CTA 2009/10, ITA 2007, VATA 1994, TCGA 1992 |
+| 11 | Regulatory Bodies | UK-wide | Various (ICO, FCA, CMA, SRA, HSE, TPR) |
+
+### Workflow Skills (v1.1.0+)
+
+| # | Workflow Skill | Description | Key Legislation |
+|---|---------------|-------------|-----------------|
+| 12 | NDA Triage | GREEN/YELLOW/RED NDA screening with UK-specific clause analysis | Confidentiality, UCTA 1977, CRA 2015 |
+| 13 | Contract Review | Playbook-based clause-by-clause review + contract law reference | UCTA 1977, CRA 2015, MA 1967, LA 1980 |
+| 14 | Legal Risk Assessment | 5×5 severity × likelihood matrix with UK regulatory enforcement | CA 2006, ICO, FCA, CMA, HSE, HMRC |
+| 15 | Compliance Workflow | UK GDPR/DPA 2018 compliance with ICO-specific steps | UK GDPR, DPA 2018, PECR 2003, DPDIA 2024 |
+
+> **Note**: The `contract-law` reference skill from v1.0.0 has been absorbed into the new `contract-review` workflow skill, which serves both as a review workflow and a contract law reference.
 
 ## 10+ Interactive Calculators & Checkers
 
@@ -51,7 +63,10 @@ This plugin was created by **[AI Heroes](https://www.ai-heroes.co)** — AI auto
 
 | Command | Description |
 |---------|-------------|
-| `/contract-law` | Contract formation, terms, breach, remedies, limitation periods, unfair terms (UCTA 1977, CRA 2015), misrepresentation (MA 1967) |
+| `/contract-review` | **NEW v1.1.0** — Playbook-based clause-by-clause contract review + full contract law reference (UCTA 1977, CRA 2015, MA 1967) |
+| `/nda-triage` | **NEW v1.1.0** — GREEN/YELLOW/RED NDA screening with UK-specific clause analysis |
+| `/legal-risk-assessment` | **NEW v1.1.0** — 5×5 risk matrix with UK regulatory enforcement landscape |
+| `/compliance-workflow` | **NEW v1.1.0** — UK GDPR/DPA 2018 compliance workflow with ICO-specific steps |
 | `/employment-law` | Unfair dismissal, redundancy, discrimination (EA 2010), TUPE, IR35, ET procedure with time limit calculator |
 | `/data-protection` | UK GDPR, DPA 2018, ICO enforcement, lawful basis selector, breach notification, DPIAs, international transfers |
 | `/company-law` | Directors' duties (ss.171–177 CA 2006), formation, ECCTA 2023, insolvency, Companies House filings |
@@ -104,7 +119,10 @@ UK-SMB-Legal-Plugin/
 │   ├── LICENSE
 │   ├── README.md
 │   └── skills/
-│       ├── contract-law/SKILL.md
+│       ├── nda-triage/SKILL.md          # NEW v1.1.0
+│       ├── contract-review/SKILL.md     # NEW v1.1.0 (absorbs contract-law)
+│       ├── legal-risk-assessment/SKILL.md # NEW v1.1.0
+│       ├── compliance-workflow/SKILL.md # NEW v1.1.0
 │       ├── employment-law/SKILL.md
 │       ├── data-protection/SKILL.md
 │       ├── company-law/SKILL.md
@@ -123,7 +141,7 @@ UK-SMB-Legal-Plugin/
     ├── LICENSE
     ├── README.md
     └── skills/
-        └── (same 12 practice areas)
+        └── (same 15 skills)
 ```
 
 ## MCP Integration
