@@ -1,9 +1,7 @@
 ---
 name: tax-law
 description: UK tax law and HMRC compliance — corporation tax (25%/19%/marginal relief), income tax bands 2025/26, VAT (registration £90k, MTD), CGT (18%/24%), IHT (NRB £325k), R&D tax credits, PAYE/RTI, CIS, and SDLT rates.
-user-invocable: true
 argument-hint: "<topic> — topics: corporation-tax, income-tax, vat, cgt, iht, rd-credits, paye, cis, sdlt, investigations"
-allowed-tools: [Read, Glob, Grep]
 ---
 
 > **DISCLAIMER** This skill provides general information about UK tax law. It is not

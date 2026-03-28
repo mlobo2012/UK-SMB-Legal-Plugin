@@ -1,9 +1,7 @@
 ---
 name: competition-law
 description: UK competition law — Competition Act 1998 (Chapter I/II prohibitions), Enterprise Act 2002 merger control, CMA enforcement, cartel offence, and Digital Markets Competition and Consumers Act 2024.
-user-invocable: true
 argument-hint: "<topic> — topics: agreements, dominance, mergers, cartels, cma, dmcc, digital-markets"
-allowed-tools: [Read, Glob, Grep]
 ---
 
 # UK Competition Law

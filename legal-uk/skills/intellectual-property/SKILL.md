@@ -1,9 +1,7 @@
 ---
 name: intellectual-property
 description: UK intellectual property law — copyright (CDPA 1988), trade marks (TMA 1994), patents (PA 1977), designs (registered and unregistered), employee IP ownership, and post-Brexit UK/EU design divergence.
-user-invocable: true
 argument-hint: "<topic> — topics: copyright, trade-marks, patents, designs, employee-ip, infringement, licensing"
-allowed-tools: [Read, Glob, Grep]
 ---
 
 # UK Intellectual Property Law

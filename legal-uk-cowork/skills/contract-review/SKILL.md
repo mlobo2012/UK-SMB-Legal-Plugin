@@ -1,9 +1,7 @@
 ---
 name: contract-review
 description: UK commercial contract review workflow — playbook-based clause-by-clause analysis with GREEN/YELLOW/RED risk classification and redline suggestions. Also covers contract law fundamentals (formation, terms, unfair terms under UCTA 1977/CRA 2015, misrepresentation, breach, remedies, limitation periods, force majeure). Replaces and absorbs the former contract-law skill.
-user-invocable: true
 argument-hint: "<paste contract or describe clause> — or ask about: formation, terms, breach, remedies, limitation, unfair-terms, force-majeure, misrepresentation, review, playbook"
-allowed-tools: [Read, Glob, Grep]
 ---
 
 # Contract Review — /contract-review

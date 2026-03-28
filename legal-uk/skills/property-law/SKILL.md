@@ -1,9 +1,7 @@
 ---
 name: property-law
 description: England & Wales property law — freehold/leasehold estates (LPA 1925), land registration (LRA 2002), business tenancies (LTA 1954 Part II), ground rent cap, Renters' Rights Act 2025, SDLT rates and reliefs, and Land Registry forms.
-user-invocable: true
 argument-hint: "<topic> — topics: freehold, leasehold, business-tenancy, sdlt, registration, renters-rights, ground-rent"
-allowed-tools: [Read, Glob, Grep]
 ---
 
 # England & Wales Property Law

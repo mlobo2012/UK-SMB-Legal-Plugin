@@ -1,9 +1,7 @@
 ---
 name: employment-law
 description: UK employment law for England & Wales — unfair dismissal, redundancy, discrimination, working time, NLW/NMW, TUPE, flexible working, IR35, and Employment Tribunal procedure with ET1/ET3 forms and ACAS early conciliation.
-user-invocable: true
 argument-hint: "<topic> — topics: unfair-dismissal, redundancy, discrimination, working-time, wages, tupe, flexible-working, ir35, tribunal, whistleblowing"
-allowed-tools: [Read, Glob, Grep]
 ---
 
 # Employment Law — /employment-law
