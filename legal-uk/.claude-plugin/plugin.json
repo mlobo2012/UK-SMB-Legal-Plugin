@@ -1,39 +1,8 @@
 {
   "name": "legal-uk",
-  "description": "Comprehensive UK legal assistant for England & Wales — covering contract law, employment, data protection, company law, IP, property, financial services, competition, consumer law, litigation, tax, and regulatory compliance. Built for SMBs, founders, in-house teams, and legal professionals with section-level statute citations, interactive calculators, and SRA-compliant disclaimers.",
   "version": "1.1.0",
+  "description": "Comprehensive UK legal assistant for England & Wales \u2014 covering contract law, employment, data protection, company law, IP, property, financial services, competition, consumer law, litigation, tax, and regulatory compliance. Built for SMBs, founders, in-house teams, and legal professionals with section-level statute citations, interactive calculators, and SRA-compliant disclaimers.",
   "author": {
     "name": "AI Heroes"
-  },
-  "homepage": "https://github.com/mlobo2012/UK-SMB-Legal-Plugin",
-  "repository": "https://github.com/mlobo2012/UK-SMB-Legal-Plugin",
-  "license": "Apache-2.0 WITH Commons-Clause",
-  "keywords": [
-    "uk-law",
-    "england-wales",
-    "contract-law",
-    "employment-law",
-    "uk-gdpr",
-    "data-protection",
-    "company-law",
-    "companies-act-2006",
-    "intellectual-property",
-    "property-law",
-    "fca-regulation",
-    "competition-law",
-    "consumer-rights",
-    "litigation",
-    "cpr",
-    "hmrc",
-    "corporation-tax",
-    "vat",
-    "sdlt",
-    "employment-tribunal",
-    "tupe",
-    "ir35",
-    "ico",
-    "sra",
-    "smb",
-    "legal-information"
-  ]
+  }
 }
