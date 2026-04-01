@@ -1,7 +1,6 @@
 ---
 name: company-law
 description: UK company law under Companies Act 2006 — directors' duties (ss.171-177), company formation, small/micro-entity regimes, ECCTA 2023 identity verification, insolvency procedures, and Companies House filing obligations.
-argument-hint: "<topic> — topics: directors-duties, formation, accounts, insolvency, eccta, psc, filing"
 ---
 
 # UK Company Law

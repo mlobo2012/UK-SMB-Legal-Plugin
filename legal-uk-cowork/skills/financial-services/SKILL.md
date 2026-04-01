@@ -1,7 +1,6 @@
 ---
 name: financial-services
 description: UK financial services regulation — FSMA 2000, FCA Handbook (PRIN/COBS/MCOB/ICOBS), Consumer Duty PS22/9, financial promotion gateway, Payment Services Regulations 2017, and FSM Act 2023 cryptoasset provisions.
-argument-hint: "<topic> — topics: authorisation, consumer-duty, promotion, payments, crypto, complaints, fca-handbook"
 ---
 
 # UK Financial Services Regulation

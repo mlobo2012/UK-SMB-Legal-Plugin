@@ -1,7 +1,6 @@
 ---
 name: nda-triage
 description: UK-specific NDA screening workflow — classifies NDAs as GREEN (safe to sign), YELLOW (flag with solicitor), or RED (do not sign). Covers English law NDA norms, standard exclusions, restraint of trade, UCTA 1977, UK GDPR, Competition Act 1998, and SRA Warning Notice compliance.
-argument-hint: "<paste or describe the NDA> — or ask about UK NDA norms, standard clauses, or triage criteria"
 ---
 
 # NDA Triage — /nda-triage

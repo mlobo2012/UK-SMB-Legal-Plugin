@@ -1,7 +1,6 @@
 ---
 name: consumer-law
 description: UK consumer law — Consumer Rights Act 2015 (goods, digital content, services, unfair terms), 14-day cooling-off (CCR 2013), unfair trading (CPRs 2008), and DMCC Act 2024 subscription traps and fake reviews.
-argument-hint: "<topic> — topics: goods, digital-content, services, unfair-terms, cooling-off, unfair-trading, subscriptions"
 ---
 
 # UK Consumer Law
