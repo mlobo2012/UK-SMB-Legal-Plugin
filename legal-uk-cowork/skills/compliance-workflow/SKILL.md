@@ -1,6 +1,7 @@
 ---
 name: compliance-workflow
 description: UK GDPR / DPA 2018 compliance workflow with ICO-specific steps, DPIA, DSAR, breach notification, international transfers, PECR direct marketing, and Children's Code
+argument-hint: "<compliance area or question>"
 ---
 
 # UK Data Protection Compliance Workflow

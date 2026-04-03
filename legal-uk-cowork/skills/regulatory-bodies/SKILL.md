@@ -1,6 +1,7 @@
 ---
 name: regulatory-bodies
 description: UK regulatory bodies reference — ICO, FCA, PRA, CMA, SRA, BSB, CQC, HSE, TPR, FRC, Ofcom, and their enforcement powers, complaint procedures, and key legislation. Includes auto-enrolment calculator and retained EU law tracker.
+argument-hint: "<regulator or topic> e.g. ico, fca, cma, hse, sra"
 ---
 
 > **DISCLAIMER** This skill provides general information about UK regulatory bodies

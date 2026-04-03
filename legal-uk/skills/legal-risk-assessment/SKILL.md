@@ -1,6 +1,7 @@
 ---
 name: legal-risk-assessment
 description: UK-specific legal risk classification workflow — severity x likelihood matrix calibrated to UK regulators (ICO, FCA, CMA, HSE, HMRC, Employment Tribunal). Covers penalty ranges, directors' duties, insurance requirements, and escalation criteria for SMBs.
+argument-hint: "<scenario or business activity to assess>"
 ---
 
 # Legal Risk Assessment — /legal-risk-assessment

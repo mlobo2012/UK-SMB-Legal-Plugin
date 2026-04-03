@@ -1,6 +1,7 @@
 ---
 name: litigation-procedure
 description: England & Wales civil litigation and procedure — CPR 1998, pre-action protocols, Part 36 offers, costs (standard/indemnity, fixed recoverable costs), disclosure (PD 57AD), court forms, MCOL, track allocation, and court fee tables.
+argument-hint: "<topic> e.g. pre-action, part-36, costs, disclosure, small-claims"
 ---
 
 > **DISCLAIMER** This skill provides general legal information about England & Wales

@@ -1,7 +1,7 @@
 {
   "name": "legal-uk",
-  "version": "1.1.0",
-  "description": "Comprehensive UK legal assistant for England & Wales \u2014 covering contract law, employment, data protection, company law, IP, property, financial services, competition, consumer law, litigation, tax, and regulatory compliance. Built for SMBs, founders, in-house teams, and legal professionals with section-level statute citations, interactive calculators, and SRA-compliant disclaimers.",
+  "version": "1.2.0",
+  "description": "Comprehensive UK legal assistant for England and Wales covering contract law, employment, data protection, company law, IP, property, financial services, competition, consumer law, litigation, tax, and regulatory compliance. Built for SMBs, founders, in-house teams, and legal professionals.",
   "author": {
     "name": "AI Heroes",
     "url": "https://www.ai-heroes.co"

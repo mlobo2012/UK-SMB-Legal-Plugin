@@ -1,6 +1,7 @@
 ---
 name: data-protection
 description: UK GDPR and Data Protection Act 2018 guidance — lawful bases, data subject rights, breach notification (72hr), DPIAs, international transfers (IDTA), ICO enforcement, PECR cookie consent, and Children's Code.
+argument-hint: "<topic> e.g. lawful-basis, rights, breach, dpia, transfers"
 ---
 
 # Data Protection & Privacy — /data-protection
